@@ -96,6 +96,7 @@ a:hover {
     color:#F3976C ;
 }
 
+
 .d-bloc2 {
 
     font-size: larger;
@@ -125,12 +126,6 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
@@ -145,9 +140,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -219,9 +211,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
@@ -237,9 +226,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -275,9 +261,7 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
+
 
 .navbar {
     margin-bottom: 0;
@@ -640,9 +624,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -688,6 +669,8 @@ p {
 
     font-style: italic;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20PX;
     font-size: 20px;
     font-weight: 600;
 
@@ -712,6 +695,14 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color:#F3976C ;
+}
+
+.white {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
 }
 
 .cta-hero {
@@ -729,15 +720,9 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333 !important;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .med-width-whitespace {
@@ -746,13 +731,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333 !important;
-}
-
-h4 {
-    color: #333333 !important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -910,12 +888,6 @@ h4 {
         position: relative;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px !important;
