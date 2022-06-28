@@ -118,7 +118,6 @@ a:hover {
     width: 26px;
 }
 
-
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
@@ -316,7 +315,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 20;
+    z-index: 3;
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -375,6 +374,18 @@ a {
 
 }
 
+.titre-realisation {
+
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.titre-domaine {
+
+    font-size: 1.3em;
+    font-weight: 500;
+}
 .container {
     max-width: 1000px;
 }
@@ -423,6 +434,8 @@ p {
     font-size: 20px;
 
 }
+
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -508,6 +521,7 @@ h2 {
 .bgc-atomic-tangerine {
     
     background-color: #F3976C;
+    margin-top: 30px;
 }
 
 
