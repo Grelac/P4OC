@@ -66,16 +66,6 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.row.row-no-gutters>[class^="col-"],
-.row.row-no-gutters>[class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -263,15 +253,6 @@ button {
     box-shadow: none;
 }
 
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -525,6 +506,7 @@ h2 {
 
 
 .bgc-atomic-tangerine {
+    
     background-color: #F3976C;
 }
 
@@ -570,6 +552,9 @@ h2 {
    
 
 }
+
+
+
 
 
 @media (max-width: 767px) {

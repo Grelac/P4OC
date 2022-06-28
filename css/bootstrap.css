@@ -4842,11 +4842,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 10px 15px
 }
 
-.nav>li>a:focus,
-.nav>li>a:hover {
-    text-decoration: none;
-    background-color: #eee
-}
 
 .nav>li.disabled>a {
     color: #777
