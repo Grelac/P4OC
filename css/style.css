@@ -453,6 +453,13 @@ p {
     color:#F3976C ;
 }
 
+h2 {
+
+    font-size: 25px;
+    font-weight: 500;
+    margin: 15px;
+}
+
 .white {
 
     font-size: 20px;
@@ -474,12 +481,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
 
-    font-size: 25px;
-    font-weight: 500;
-    margin: 15px;
-}
 
 .med-width-whitespace {
     max-width: 800px;
@@ -495,12 +497,22 @@ h2 {
 
 
 .portfolio-thumb {
+    
     margin-bottom: 24px;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+
+.col-sm-6 img {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
 }
 
 .avatar {
